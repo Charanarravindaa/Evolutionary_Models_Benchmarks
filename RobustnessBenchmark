@@ -1,0 +1,36 @@
+Google Drive Link: https://drive.google.com/drive/folders/1EtYG2wp8ISOF8PjsGBw2XT2SuhB4nYlS?usp=sharing
+
+Robustness to different attack strengths:
+
+FGSM Attack:
+  Epsilon = 0.010: Accuracy = 0.9672
+  Epsilon = 0.020: Accuracy = 0.9088
+  Epsilon = 0.030: Accuracy = 0.8262
+  Epsilon = 0.050: Accuracy = 0.5840
+
+PGD Attack:
+  Epsilon = 0.010: Accuracy = 0.9644
+  Epsilon = 0.020: Accuracy = 0.8889
+  Epsilon = 0.030: Accuracy = 0.7536
+  Epsilon = 0.050: Accuracy = 0.3761
+
+AutoAttack Robustness:
+
+Baseline Model:
+  Epsilon = 0.010: Accuracy = 0.8689
+  Epsilon = 0.020: Accuracy = 0.4829
+  Epsilon = 0.030: Accuracy = 0.3704
+  Epsilon = 0.050: Accuracy = 0.3262
+
+Evolutionary Model:
+  Epsilon = 0.010: Accuracy = 0.9858
+  Epsilon = 0.020: Accuracy = 0.9886
+  Epsilon = 0.030: Accuracy = 0.9886
+  Epsilon = 0.050: Accuracy = 0.9786
+
+==================================================
+Comparison of Models
+==================================================
+Baseline - Clean Accuracy: 0.9872, Adversarial Accuracy (PGD ε=0.02): 0.1311, AutoAttack Accuracy (ε=0.02): 0.4829
+Evolutionary - Clean Accuracy: 0.9858, Adversarial Accuracy (PGD ε=0.02): 0.8889, AutoAttack Accuracy (ε=0.02): 0.9886
+Improvement: Clean: -0.14%, PGD: 75.78%, AutoAttack: 50.57%
