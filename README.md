@@ -322,4 +322,4 @@ Notes
 
 The model is evaluated on the test set only; training is not required.
 Outputs are saved in /kaggle/working/. Download logs or results from the notebook’s “Output” section.
-For further details, contact the model provider or refer to the associated conference paper (IEEE AI-SI 2025).
+For further details, contact the model provider (cortexalabsAI@proton.me) or refer to the associated conference paper (IEEE AI-SI 2025).
