@@ -15,6 +15,8 @@ AutoAttack (pip install autoattack)
 Hardware: At least 1 GPU (2x NVIDIA T4 preferred, 32GB VRAM total).
 Dataset: BrainTumor-7K dataset, available at /kaggle/input/brain-tumor-mri-dataset/ or via Kaggle.
 
+Weights: .pth file provided in RobustnessBenchmarks
+
 Setup Instructions
 
 Create a Kaggle Notebook:
